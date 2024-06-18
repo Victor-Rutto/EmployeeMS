@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application uses React to create several useful parts. The `AdminDashboard` lets administrators add and see managers. It saves them in local storage and handles errors if something goes wrong. The `EmployeeDashboard` helps employees manage their tasks. They can update task statuses like 'In Progress' or 'Completed'. `EmployeeForm` lets you add or update employee details like name and role. The `LoginPage` handles logging in and signing up users, checking their details and sending them to the right place based on their role. `ManagerDashboard` helps manage employees and tasks with options to add, edit, and delete them. The `Navbar` changes links based on if you're logged in and what role you have. `TodoList` helps add tasks with due dates and who's assigned to them. `AppRoutes` manages where users go based on their role, making sure they see the right parts of the app and keeping things safe and organized.
